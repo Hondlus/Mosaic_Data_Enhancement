@@ -1,0 +1,10 @@
+#Mosaic_Data_Enhancement
+文件运行顺序:
+1.data_enhancement.py
+2.xml_enhancement.py
+3.xiugai_xml.py
+4.xml_txt_xml.py(这个文件是将xml转txt，或txt转xml。先将xml转txt)
+5.txt_hebin.py
+6.xml_txt_xml.py(合并后将txt转xml)
+完成之后，可以用于PASCAL、COCO格式训练。
+目前代码还没有优化，但能用。
